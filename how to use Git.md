@@ -51,6 +51,18 @@ type terminal `git status`, you can recognize what branch you choose
 <br><br>
 ![BranchImg](imgOfBranch.png)
 this status, your work is always saving at branch
+<br><br>
+
+<h2>Combine branch</h2>
+
+**first thing first** need to move the standard branch
+
+```
+git merge (기준 브랜치에)합치고 싶은 브랜치 이름
+```
+**if** 기준 브랜치 and 합치고 싶은 브랜치 are not overlap file(no same file), merge will successfully done<br>
+**else if** 기준 브랜치 and 합치고 싶은 브랜치 overlap same file & same line
+
 
 <br><br><br><br>
 
