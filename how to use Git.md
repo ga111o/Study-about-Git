@@ -41,3 +41,20 @@ git status
 ```
 git log --all --oneline
 ```
+<br>
+<h2>Check different of commit file and current file</h2>
+
+```
+git difftool
+```
+Compare *commit file* and *current file* using Vim<br>
+`:qa`: quit Vim editor
+<br><br>
+```
+git difftool 커밋아이디
+```
+Compare *specific commit file* and *current file*<br><br>
+```
+git difftool 커밋아이디1 커밋아이디2
+```
+Compare *specific commit file1* and *specific commit file2*<br><br>
