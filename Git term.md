@@ -13,3 +13,4 @@ if you type `git commit` or `git commit -m '메모 내용'` 파일 will move at 
 <h3>Branch</h3>
 
 make a *copy* and coding at *copy file*, if complete, apply *copy file* to *original file*
+(excatly, copy of commited)
