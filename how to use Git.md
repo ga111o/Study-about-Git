@@ -53,17 +53,25 @@ type terminal `git status`, you can recognize what branch you choose
 this status, your work is always saving at branch
 <br><br>
 
-<h2>Combine branch</h2>
+<h2>Combine branch 1</h2>
 
 **first thing first** need to move the standard branch
 
 ```
 git merge (기준 브랜치에)합치고 싶은 브랜치 이름
 ```
-**case 1** at the each branch<small>(기준 브랜치 and 합치고 싶은 브랜치)</small> are create new commit <small>(not overlap file(no same file))</small>, merge will successfully done<br><br>
+**case 1 `3 way merge`** at the each branch<small>(기준 브랜치 and 합치고 싶은 브랜치)</small> are create new commit
+
 **case 2** 기준 브랜치 and 합치고 싶은 브랜치 overlap same file & same line, you need to choose which code you want to select
+
+**case 3 `fast forward merge`** at main branch don't have new commit and new branch have new commit, this case new branch is changed to main branch
 <br><br>
-**case 3** at main branch don't have new commit and new branch have new commit, this case new branch is changed to main branch
+```
+git rebase
+```
+at the each branch are created new commit, if want to *fast forward merge* instead of *3 way merge*<br>
+last main branch + new branch's start commit
+
 <br><br>
 <h2>Delete branch</h2>
 
