@@ -61,7 +61,7 @@ this status, your work is always saving at branch
 git merge (기준 브랜치에)합치고 싶은 브랜치 이름
 ```
 **if** 기준 브랜치 and 합치고 싶은 브랜치 are not overlap file(no same file), merge will successfully done<br>
-**else if** 기준 브랜치 and 합치고 싶은 브랜치 overlap same file & same line
+**else if** 기준 브랜치 and 합치고 싶은 브랜치 overlap same file & same line, you need to choose which code you want to select
 
 
 <br><br><br><br>
