@@ -1,3 +1,4 @@
+<h1>Basic</h1>
 <h2>1. Initialization</h2>   
 
 ```
@@ -29,7 +30,34 @@ if inquiry the history, memo will help<br>
 **When you save the file**<br>
 '2. Add File' and '3. File Commit' are fulfil together!
 
+<br><br>
+<h1>Branch</h1>
+<h2>Make branch</h2>
 
+```
+git branch 브랜치명
+```
+make to most recent commit's copy
+<br><br>
+
+<h2>Switch branch</h2>
+
+```
+git switch 브랜치명
+git switch main
+```
+move to recent commit's copy file<br>
+type terminal `git status`, you can recognize what branch you choose
+<br><br>
+![BranchImg](imgOfBranch.png)
+this status, your work is always saving at branch
+
+<br><br><br><br>
+
+
+
+
+<h1>Additional Command</h1>
 <h2>Status</h2>
 
 ```
@@ -65,6 +93,9 @@ Compare *specific commit file1* and *specific commit file2*<br><br>
 git config --global diff.tool vscode git config --global difftool.vscode.cmd 'code --wait --diff $LOCAL $REMOTE'
 ```
 <br><br>
+
+
+
 <h2>Convenient VSCode Extension</h2>
 
 `gitlens` Check Git breakdown(who, when, why change this code)<br>
