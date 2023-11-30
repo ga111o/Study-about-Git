@@ -53,25 +53,40 @@ type terminal `git status`, you can recognize what branch you choose
 this status, your work is always saving at branch
 <br><br>
 
-<h2>Combine branch 1</h2>
+<h2>Combine branch</h2>
 
-**first thing first** need to move the standard branch
-
+<h3>Merge</h3>
 ```
 git merge (기준 브랜치에)합치고 싶은 브랜치 이름
 ```
+**first thing first** need to move the standard branch
+
 **case 1 `3 way merge`** at the each branch<small>(기준 브랜치 and 합치고 싶은 브랜치)</small> are create new commit
 
 **case 2** 기준 브랜치 and 합치고 싶은 브랜치 overlap same file & same line, you need to choose which code you want to select
 
 **case 3 `fast forward merge`** at main branch don't have new commit and new branch have new commit, this case new branch is changed to main branch
 <br><br>
+<h3>Rebase and merge</h3>
+
 ```
-git rebase
+//need to run in order
+git rebase 중심브랜치명
+git merge 새로운브랜치명
 ```
+**first thing first** if want to use `rebase`, need to switch sub branch <small>(instead of main branch)</small>
+
 at the each branch are created new commit, if want to *fast forward merge* instead of *3 way merge*<br>
 last main branch + new branch's start commit<br>
 (if branchs are too many, Using rebase instead of merge, branch is more clearly)
+
+<br>
+<h3>Squash and merge</h3>
+
+```
+git merge --squash 새로운브랜치명
+```
+main branch's new commit is sum of new branch's all commit
 
 <br><br>
 <h2>Delete branch</h2>
@@ -82,7 +97,7 @@ git branch -D 브랜치명 // no merge (like created by mistake)
 ```
 after the merge is done, normaly, delete branch
 
-<br><br><br><br>
+<br><br><hr/><br><br>
 
 
 
