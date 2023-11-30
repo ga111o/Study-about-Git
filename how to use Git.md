@@ -58,3 +58,9 @@ Compare *specific commit file* and *current file*<br><br>
 git difftool 커밋아이디1 커밋아이디2
 ```
 Compare *specific commit file1* and *specific commit file2*<br><br>
+
+<h3>Open file to VSCode instead of Vim</h3>
+
+```
+git config --global diff.tool vscode git config --global difftool.vscode.cmd 'code --wait --diff $LOCAL $REMOTE'
+```
