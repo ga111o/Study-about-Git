@@ -60,9 +60,18 @@ this status, your work is always saving at branch
 ```
 git merge (기준 브랜치에)합치고 싶은 브랜치 이름
 ```
-**if** 기준 브랜치 and 합치고 싶은 브랜치 are not overlap file(no same file), merge will successfully done<br>
-**else if** 기준 브랜치 and 합치고 싶은 브랜치 overlap same file & same line, you need to choose which code you want to select
+**case 1** at the each branch<small>(기준 브랜치 and 합치고 싶은 브랜치)</small> are create new commit <small>(not overlap file(no same file))</small>, merge will successfully done<br><br>
+**case 2** 기준 브랜치 and 합치고 싶은 브랜치 overlap same file & same line, you need to choose which code you want to select
+<br><br>
+**case 3** at main branch don't have new commit and new branch have new commit, this case new branch is changed to main branch
+<br><br>
+<h2>Delete branch</h2>
 
+```
+git branch -d 브랜치명 // after merge
+git branch -D 브랜치명 // no merge (like created by mistake)
+```
+after the merge is done, normaly, delete branch
 
 <br><br><br><br>
 
