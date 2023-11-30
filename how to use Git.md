@@ -68,6 +68,7 @@ git status
 
 ```
 git log --all --oneline
+git log --all --oneline --graph
 ```
 <br>
 <h2>Check different of commit file and current file</h2>
