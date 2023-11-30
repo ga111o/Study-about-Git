@@ -64,3 +64,9 @@ Compare *specific commit file1* and *specific commit file2*<br><br>
 ```
 git config --global diff.tool vscode git config --global difftool.vscode.cmd 'code --wait --diff $LOCAL $REMOTE'
 ```
+<br><br>
+<h2>Convenient VSCode Extension</h2>
+
+`gitlens` Check Git breakdown(who, when, why change this code)<br>
+`git history`<br>
+`git graph` upgrade version of 'git diff', *Source Control*(at left nav bar), at the top of nav bar *View Git Graph* <br>
