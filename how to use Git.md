@@ -70,7 +70,8 @@ git merge (기준 브랜치에)합치고 싶은 브랜치 이름
 git rebase
 ```
 at the each branch are created new commit, if want to *fast forward merge* instead of *3 way merge*<br>
-last main branch + new branch's start commit
+last main branch + new branch's start commit<br>
+(if branchs are too many, Using rebase instead of merge, branch is more clearly)
 
 <br><br>
 <h2>Delete branch</h2>
