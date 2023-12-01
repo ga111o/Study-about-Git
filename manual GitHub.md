@@ -13,7 +13,7 @@ this called **Online Repository**
 <br><br>
 
 <h1>Use GitHub</h1>
-
+<h2>0. Main Branch Name</h2>
 **GitHub's basic branch name is must be _main_**
 
 ```
@@ -21,3 +21,13 @@ git branch -M main
 ```
 
 change basic branch name to **main**
+<br><br>
+
+<h2>1. Back up local repository to GitHub</h2>
+
+```
+git push -u 원격저장소주소 업로드할브랜치명
+git push -u https://github.com/ga111o/주소 main
+```
+
+Upload **Local Repository's Main Branch** at GitHub's Repository
