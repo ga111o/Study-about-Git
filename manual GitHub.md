@@ -82,4 +82,4 @@ git pull 주소
 
 get _GitHub repository_ to _local repository_
 
-if local and github are twisted, git pull will work like merge
+if local and github are twisted, git pull will work like merge conflict
