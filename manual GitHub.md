@@ -83,3 +83,35 @@ git pull 주소
 get _GitHub repository_ to _local repository_
 
 if local and github are twisted, git pull will work like merge conflict
+
+<br><br>
+
+<h1>Branch at GitHub</h1>
+<h2>1. Upload Branch at GitHub</h2>
+if want to make new something, make new branch and work there. it is more safety
+
+can make branch at GitHub.<br>
+
+_make branch manually_ or _upload local branch to github_
+
+<br>
+how to upload local branch to github
+
+1. make new branch
+2. commit
+3. `git push 주소 브랜치명`
+   <br><br>
+
+<h2>2. Merge to Main Branch</h2>
+
+use `git merge` command, that's all.<br>
+but many case of team project, before merge, need to Check
+
+**in this case, `pull request` is used**<br>
+request _'merge my branch!'_ or _'check one more code'_
+
+1. to use this, top of page _github.com_, press _New Pull Request_ button
+2. choose what branch merge where
+3. press Green Button
+4. at the _Pull Requests_ page, you can review code
+5. choose _Create a merge commit (3 way merge)_, _Squash and merge_, _Rebase and merge_
