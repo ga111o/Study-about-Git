@@ -26,8 +26,25 @@ change basic branch name to **main**
 <h2>1. Back up local repository to GitHub</h2>
 
 ```
+git push 원격저장소주소 업로드할브랜치명
 git push -u 원격저장소주소 업로드할브랜치명
 git push -u https://github.com/ga111o/주소 main
 ```
 
 Upload **Local Repository's Main Branch** at GitHub's Repository
+
+(`-u`: remind address.<br>After type `-u` command, `git push` will work as `git push 원격저장소주소 업로드할브랜치명`)
+<br><br>
+
+<h2>1-1. put 원격저장소주소 in Variable</h2>
+
+```
+git remote add 변수명 원격저장소주소
+git remote add origin 원격저장소주소
+```
+
+`git push -u 원격저장소주소 업로드할브랜치명`<br>
+at this code, _원격저장소주소_ is too long.<br>
+for this reason, put _원격저장소주소_ in _Variable_
+
+normaly, Variable name is called _origin_
