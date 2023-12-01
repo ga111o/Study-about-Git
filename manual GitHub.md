@@ -48,3 +48,36 @@ at this code, _원격저장소주소_ is too long.<br>
 for this reason, put _원격저장소주소_ in _Variable_
 
 normaly, Variable name is called _origin_
+
+<br><br>
+
+<h1>Cooperation</h1>
+<h2>1. Git Clone</h2>
+
+```
+git clone 저장소주소
+```
+
+Download all Code at the Online Repository
+
+<br><br>
+
+<h2>2. Git Push to other member's github repository</h2>
+
+**First thing first**, Add GitHub ID at main GitHub Repository<br>
+(_Settings - Access - Collaborators_ menu)
+
+```
+git push 주소 브랜치
+```
+
+<br><br>
+
+<h2>3. if Other Member push to GitHub</h2>
+if other member push to GitHub, you can't `git push`. because it is different *GitHub repository* and *local repository*<br><br>
+
+```
+git pull 주소
+```
+
+get _GitHub repository_ to _local repository_
