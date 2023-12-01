@@ -54,6 +54,25 @@ git restore --staged
 
 Cancle 'git add'(staging)
 
+<h2>3. Delete Commit</h2>
+
+```
+git revert HEAD // Delete recent commit
+git revert 커밋아이디
+git revert 커밋아이디1 커밋아이디2
+```
+
+'commit delete' commit
+<br><br>
+
+<h2>4. Completely Restore Commit</h2>
+
+```
+git reset --hard 커밋아이디
+```
+
+restart from that Commit ID
+
 <br><br><br>
 
 <h1>Branch</h1>
@@ -182,3 +201,7 @@ git config --global diff.tool vscode git config --global difftool.vscode.cmd 'co
 `gitlens` Check Git breakdown(who, when, why change this code)<br>
 `git history`<br>
 `git graph` upgrade version of 'git diff', _Source Control_(at left nav bar), at the top of nav bar _View Git Graph_ <br>
+
+```
+
+```
