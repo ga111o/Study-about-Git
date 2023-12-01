@@ -102,9 +102,11 @@ this status, your work is always saving at branch
 <h2>Combine branch</h2>
 
 <h3>Merge</h3>
+
 ```
 git merge (기준 브랜치에)합치고 싶은 브랜치 이름
 ```
+
 **first thing first** need to move the standard branch
 
 **case 1 `3 way merge`** at the each branch<small>(기준 브랜치 and 합치고 싶은 브랜치)</small> are create new commit
